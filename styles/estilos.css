@@ -16,3 +16,19 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+.mainbutton{
+    background-color: indigo;
+    color: ivory;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px 1px red;
+
+}
+
+.mainbutton:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px 1px blueviolet;
+}
