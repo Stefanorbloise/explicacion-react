@@ -15,6 +15,14 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: cornsilk;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 1px red;
+}
+
+.navbar > li{
+    display: flex;
+    align-items: center; 
 }
 
 button{
@@ -36,6 +44,12 @@ button{
     box-shadow: 2px 2px 2px 1px blueviolet;
 }
 
+.lupa:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: royalblue;
+}
+
 .secondarybutton {
     background-color: rgb(211, 243, 94);
     color: ivory;
@@ -55,6 +69,9 @@ button{
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px ;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within{
