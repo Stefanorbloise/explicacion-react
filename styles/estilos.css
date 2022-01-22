@@ -83,3 +83,25 @@ button{
     outline: none;
     border: 0px
 }
+
+.contenedorImagen{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+}
+
+/* Al parcer la distribucionde imagenes no funciona si el padre no tiene el display flex, ojo con eso */
+
+.contenedorImagen > img{
+    object-fit: scale;
+    width: 100%;
+    /*el width aca hace que la imagen ocupe el 100% del div de la clase padre*/
+}
+
+.breedCardContainer{
+    display: flex;
+}
+.breedCard{
+    margin: 20px;
+}
