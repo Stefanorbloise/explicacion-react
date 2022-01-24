@@ -1,128 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/estilos.css"/>
-    <link rel="shortcut icon" href="./media/mundo.png" type="image/x-icon" />
-    <script src="https://kit.fontawesome.com/aadc33d61d.js" crossorigin="anonymous"></script>
-    <title>Razas de perros</title>
-</head>
-<body>
+import logo from './media/mundo.png';
+import './styles/styles.css';
+import pitbull from './media/pitbull.jpg'
+import pastor from './media/Cane_da_pastore_tedesco_adulto.jpg'
+import pug from './media/pug.jpg'
+import borderCollie from './media/border-collie-.jpeg'
+
+
+function App() {
+  return (
+    <div className="App">
+      <body>
     <header>
-        <ul class="navbar">
+        <ul className="navbar">
             <li>
-                <img src="media/mundo.png" alt="imagen" class="logo" />
+                <img src={logo} alt="imagen" className="logo" />
             </li>
             <li>
-                <button class="button mainbutton">Nuevo post</button>
+                <button className="button mainbutton">Nuevo post</button>
             </li>
-            <li><button class="button secondarybutton">Login</button></li>
+            <li><button className="button secondarybutton">Login</button></li>
             <li>
-                <div class="buscar">                 
+                <div className="buscar">                 
                     <input placeholder="buscar una raza" />
-                    <i class="fas fa-search lupa"></i>
+                    <i className="fas fa-search lupa"></i>
                 </div>
                 </li>
-            <li><button class="button mainbutton">Registro</button></li>
+            <li><button className="button mainbutton">Registro</button></li>
         </ul>
     </header>
     <main>
         <section>
             <h1>Razas de perros</h1>
-            <ul class="breedCardContainer">
-                <li class="breedCard">
-                    <div class="contenedorImagen">
-                       <img src="./media/pitbull.jpg" alt="imagenpitvbulll" />
+            <ul className="breedCardContainer">
+                <li className="breedCard">
+                    <div className="contenedorImagen">
+                       <img src={pitbull} alt="imagenpitvbulll" />
                     </div>
-                    <span class="breedTitle">
+                    <span className="breedTitle">
                         Pitbull
                     </span>
                     <div>
-                        <ul class="interactionCard">
+                        <ul className="interactionCard">
                             <li>
-                                <i class="fas fa-thumbs-up thumbsUp"></i>
+                                <i className="fas fa-thumbs-up thumbsUp"></i>
                                 <span>150</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-comments"></i>
+                                <i className="fas fa-comments"></i>
                                 <span>15</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-eye"></i>
+                                <i className="fas fa-eye"></i>
                                 <span>900</span>
                             </li>
                         </ul>
                     </div>
                 </li>
-                <li class="breedCard">
-                    <div class="contenedorImagen">
-                        <img src="./media/Cane_da_pastore_tedesco_adulto.jpg" alt="imagenpa" />
+                <li className="breedCard">
+                    <div className="contenedorImagen">
+                        <img src={pastor} alt="imagenpa" />
                      </div>
-                     <span class="breedTitle">
+                     <span className="breedTitle">
                          Pastor Alemán
                      </span>
                      <div>
-                        <ul class="interactionCard">
+                        <ul className="interactionCard">
                             <li>
-                                <i class="fas fa-thumbs-up thumbsUp"></i>
+                                <i className="fas fa-thumbs-up thumbsUp"></i>
                                 <span>150</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-comments"></i>
+                                <i className="fas fa-comments"></i>
                                 <span>15</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-eye"></i>
+                                <i className="fas fa-eye"></i>
                                 <span>900</span>
                             </li>
                         </ul>
                     </div>
                 </li>
-                <li class="breedCard">
-                    <div class="contenedorImagen">
-                        <img src="./media/pug.jpg" alt="imagenpug" />
+                <li className="breedCard">
+                    <div className="contenedorImagen">
+                        <img src={pug} alt="imagenpug" />
                      </div>
-                     <span class="breedTitle">
+                     <span className="breedTitle">
                         Pug
                     </span>
                     <div>
-                        <ul class="interactionCard">
+                        <ul className="interactionCard">
                             <li>
-                                <i class="fas fa-thumbs-up thumbsUp"></i>
+                                <i className="fas fa-thumbs-up thumbsUp"></i>
                                 <span>150</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-comments"></i>
+                                <i className="fas fa-comments"></i>
                                 <span>15</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-eye"></i>
+                                <i className="fas fa-eye"></i>
                                 <span>900</span>
                             </li>
                         </ul>
                     </div>
                 </li>
-                <li class="breedCard">
-                    <div class="contenedorImagen">
-                        <img src="./media/border-collie-.jpeg" alt="imagenbroder" />
+                <li className="breedCard">
+                    <div className="contenedorImagen">
+                        <img src={borderCollie} alt="imagenbroder" />
                      </div>
-                     <span class="breedTitle">
+                     <span className="breedTitle">
                         Border Collie
                     </span>
                     <div>
-                        <ul class="interactionCard">
+                        <ul className="interactionCard">
                             <li>
-                                <i class="fas fa-thumbs-up thumbsUp"></i>
+                                <i className="fas fa-thumbs-up thumbsUp"></i>
                                 <span>150</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-comments"></i>
+                                <i className="fas fa-comments"></i>
                                 <span>15</span>
                             </li>
                             <li>                                
-                                <i class="fas fa-eye"></i>
+                                <i className="fas fa-eye"></i>
                                 <span>900</span>
                             </li>
                         </ul>
@@ -134,4 +134,8 @@
     </main>
     <footer></footer>
 </body>
-</html>
+    </div>
+  );
+}
+
+export default App;
