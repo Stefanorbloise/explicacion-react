@@ -25,6 +25,7 @@ ul{
   height: 70px;
 }
 
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -98,8 +99,8 @@ button{
 }
 
 .contenedorImagen{
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  width: 300px;
   display: flex;
 }
 
@@ -120,7 +121,7 @@ button{
 .breedCard{
   margin: 10px;
   background-color: seagreen;
-  box-shadow: 5px 5px 5px greenyellow;
+  box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
 }
 
@@ -147,4 +148,11 @@ li > span{
 }
 .thumbsUp{
   color: brown;
+}
+
+.backgroundRojo{
+  background-color: rgb(248, 7, 7);
+}
+.backgroundVerde{
+  background-color: green;
 }
