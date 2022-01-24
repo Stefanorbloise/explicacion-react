@@ -1,4 +1,4 @@
-import CardRazasPerros from "../components/cardRazasPerros";
+import CardRazasPerros from "components/CardRazasPerros";
 import logo from '../media/mundo.png';
 import '../styles/styles.css';
 import pitbull from '../media/pitbull.jpg';
