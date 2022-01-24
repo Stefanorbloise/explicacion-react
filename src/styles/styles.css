@@ -1,0 +1,150 @@
+body{
+  margin:0px
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: cornflowerblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+
+}
+.logo{
+  height: 70px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: cornsilk;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px red;
+}
+
+.navbar > li{
+  display: flex;
+  align-items: center; 
+}
+
+button{
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.mainbutton{
+  background-color: indigo;
+  color: ivory;
+  box-shadow: 2px 2px 2px 1px red;
+
+}
+
+.mainbutton:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 2px 2px 2px 1px blueviolet;
+}
+
+.lupa:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  color: royalblue;
+}
+
+.secondarybutton {
+  background-color: rgb(211, 243, 94);
+  color: ivory;
+  box-shadow: 2px 2px 2px 1px rgb(233, 190, 0);
+
+}
+
+.secondarybutton:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 2px 2px 2px 1px rgb(43, 214, 226);
+}
+
+
+.buscar{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px ;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within{
+  border: 1px solid blue;
+}
+
+.buscar > input{
+  outline: none;
+  border: 0px
+}
+
+.contenedorImagen{
+  height: 100px;
+  width: 200px;
+  display: flex;
+}
+
+/* Al parcer la distribucionde imagenes no funciona si el padre no tiene el display flex, ojo con eso */
+
+.contenedorImagen > img{
+  object-fit: cover;
+  width: 100%;
+  /*el width aca hace que la imagen ocupe el 100% del div de la clase padre*/
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.breedCardContainer{
+  display: flex;
+}
+.breedCard{
+  margin: 10px;
+  background-color: seagreen;
+  box-shadow: 5px 5px 5px greenyellow;
+  border-radius: 10px;
+}
+
+.breedTitle{
+  color: rgb(43, 35, 35);
+  margin: 5px;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+
+.contenedorImagen:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.interactionCard{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+li > span{
+  color: cyan;
+}
+.thumbsUp{
+  color: brown;
+}
